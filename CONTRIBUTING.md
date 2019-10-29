@@ -49,8 +49,8 @@ Substra is made of several open source components listed below. When you initial
 |---|---|
 | [substra](https://github.com/SubstraFoundation/substra) | Documentation, CLI and Python SDK to interact with a Substra node.  |
 | [substra-tools](https://github.com/SubstraFoundation/substra-tools) | Toolkit to design assets to be registered to Substra.  |
-| [substra-front](https://github.com/SubstraFoundation/substra-front)  | Frontend to visualize the state of the assets registered to a Substra channel.  |
-| [substra-ui](https://github.com/SubstraFoundation/substrafront)  | UI component for the frontend.  |
+| [substra-front](https://github.com/SubstraFoundation/substra-frontend)  | Frontend to visualize the state of the assets registered to a Substra channel.  |
+| [substra-ui](https://github.com/SubstraFoundation/substra-ui)  | UI component for the frontend.  |
 | [substra-backend](https://github.com/SubstraFoundation/substra-backend)  | Backend of a Substra node.  |
 | [substra-chaincode](https://github.com/SubstraFoundation/substra-chaincode)  | Smart contracts responsible for the decentralised orchestration.  |
 | [hlf-k8s](https://github.com/SubstraFoundation/hlf-k8s)  | Tools to deploy a Hyperledger Fabric network on kubernetes.  |
