@@ -7,7 +7,7 @@ The following is a set of guidelines for contributing to the Substra framework, 
 - [Contributing to Substra](#contributing-to-substra)
   - [TODO](#todo)
   - [Code of Conduct](#code-of-conduct)
-  - [I don't want to read this whole thing I just have a question!!!](#i-dont-want-to-read-this-whole-thing-i-just-have-a-question)
+  - [I don't want to read this whole thing I just have a question!](#i-dont-want-to-read-this-whole-thing-i-just-have-a-question)
   - [What should I know before I get started?](#what-should-i-know-before-i-get-started)
     - [The components of Substra](#the-components-of-substra)
     - [Substra Design Decisions](#substra-design-decisions)
@@ -39,19 +39,19 @@ The following is a set of guidelines for contributing to the Substra framework, 
       - [Type of Issue and Issue State](#type-of-issue-and-issue-state)
       - [Topic Categories](#topic-categories)
       - [Pull Request Labels](#pull-request-labels)
+  - [Security Policy](#security-policy)
 
 ## TODO
 
 TODO:
 
 - ADD acknowledgment here?
-- ADD security policy?
 
 ## Code of Conduct
 
 This project and everyone involved is governed by the Code of Conduct defined [here](https://github.com/SubstraFoundation/.github/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [github@substra.org](mailto:github@substra.org).
 
-## I don't want to read this whole thing I just have a question!!!
+## I don't want to read this whole thing I just have a question!
 
 Please check [our forum](https://forum.substra.org/) or drop us an [email](mailto:help@substra.org).
 
@@ -106,9 +106,7 @@ TODO: Add debugging section & some [TIPS]
 
 Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues/). After you've determined [which repository](#the-components-of-substra) your bug is related to, create an issue on that repository and provide relevant information by filling in [the template](https://github.com/SubstraFoundation/.github/blob/master/.github/ISSUE_TEMPLATE/bug_report.md). This template should guide you to submit a good bug report.
 
-If you really don't know which repository your bug is related to, submit an issue [here (substra-cli)](https://github.com/SubstraFoundation/substra-cli).
-
-TODO: REPO ARCHIVED => [create an issue on Substra repo](https://github.com/SubstraFoundation/substra/issues/new)?
+If you really don't know which repository your bug is related to, submit an issue [here](https://github.com/SubstraFoundation/substra/issues/new).
 
 ### Suggesting Enhancements
 
@@ -116,7 +114,7 @@ This section guides you through submitting an enhancement suggestion for Substra
 
 Before creating enhancement suggestions, please check [this list](#before-submitting-an-enhancement-suggestion) as you might find out that you don't need to create a new one. When you are creating an enhancement suggestion, please [include as many details as possible](#how-do-i-submit-a-good-enhancement-suggestion). Fill in [the template](https://github.com/SubstraFoundation/.github/blob/master/.github/ISSUE_TEMPLATE/feature_request.md), including all the steps that you imagine you would take if the feature already existed.
 
-TODO: ADD feature_request.md
+TODO: ADD feature_request.md OR GOTO forum
 
 #### Before Submitting An Enhancement Suggestion
 
@@ -128,9 +126,7 @@ TODO: ADD feature_request.md
 
 Enhancement suggestions are tracked as [GitHub issues](https://guides.github.com/features/issues/). After you've determined [which repository](#components-of-substra) your enhancement suggestion is related to, create an issue on that repository and provide relevant information by filling in [the template](https://github.com/SubstraFoundation/.github/blob/master/.github/ISSUE_TEMPLATE/enhancement_suggestion.md). The template should guide you to submit a good enhancement suggestion.
 
-If you don't know which repository your suggestion is related to, submit an issue to [here (substra-cli)](https://github.com/SubstraFoundation/substra-cli).
-
-TODO: Not on Substra?
+If you don't know which repository your suggestion is related to, submit an issue to [here](https://github.com/SubstraFoundation/substra/issues/new).
 
 ### Your First Code Contribution
 
@@ -147,11 +143,13 @@ Both issues lists are sorted by total number of comments. While not perfect, the
 
 #### Local development
 
-Substra can be developed locally. For instructions on how to do this, see [this document](https://github.com/SubstraFoundation/substra-cli/blob/dev/docs/local_install.md) which is part of the  Substra Documentation.
+Substra can be developed locally. For instructions on how to do this, see [this document](https://github.com/SubstraFoundation/substra-cli/blob/dev/docs/local_install.md) which is part of the Substra Documentation.
 
 TODO: UPDATE url (repo is archived)
 
 ### Pull Requests
+
+> Hint: Before starting a Pull Request, opening an issue is a good way to reach the team involved (most likely the reviewers of your submission) and discuss your proposition!
 
 The process described here has several goals:
 
@@ -162,7 +160,7 @@ The process described here has several goals:
 
 Please follow these steps to have your contribution considered by the maintainers:
 
-1. Follow all instructions in [the template](PULL_REQUEST_TEMPLATE.md) TODO: UPDATE url
+1. Follow all instructions in [Pull Request template](./Pull_Request_Template.md)
 2. Follow the [coding guidelines](#coding-guidelines)
 3. After submitting your pull request, verify that all [status checks](https://help.github.com/articles/about-status-checks/) are passing, for example:
 
@@ -265,9 +263,7 @@ Is your comment helping the other developer learn or are you nitpicking to parti
 
 The Substra project tries to closely follow the official Python guideleines detailed in [PEP8](https://www.python.org/dev/peps/pep-0008/). Please read it and follow it.
 
-Youn can check your code using [flake8](http://flake8.pycqa.org/en/latest/).
-
-TODO: ADD [Black](https://github.com/psf/black)?
+You can check your code using [flake8](http://flake8.pycqa.org/en/latest/).
 
 In addition, please apply the following guidelines:
 
@@ -430,3 +426,7 @@ TODO
 
 [beginner]:https://github.com/search?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+label%3Abeginner+label%3Ahelp-wanted+org%3Asubstrafoundation+sort%3Acomments-desc
 [help-wanted]:https://github.com/search?q=is%3Aopen+is%3Aissue+label%3Ahelp-wanted+org%3Asubstrafoundation+sort%3Acomments-desc+-label%3Abeginner
+
+## Security Policy
+
+Please refer to [this document](./SECURITY.md) if you want to submit any security related issue.
