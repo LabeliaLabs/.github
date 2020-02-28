@@ -2,10 +2,10 @@
 
 :+1::tada: First off, thanks for taking the time to contribute! :tada::+1:
 
-The following is a set of guidelines for contributing to the Substra framework, which is hosted in the [Substra Foundation Organization](https://github.com/SubstraFoundation) on GitHub. These are mostly guidelines, not rules. Use your best judgment and feel free to propose changes to this document in a pull request.
+The following is a set of guidelines for contributing to the Substra framework, which is hosted on the [Substra Foundation Organization](https://github.com/SubstraFoundation) on GitHub. These are mostly guidelines, not rules. Use your best judgment and feel free to propose changes to this document in a pull request.
 
 - [Contributing to Substra](#contributing-to-substra)
-  - [TODO](#todo)
+  - [Acknowledgements](#acknowledgements)
   - [Code of Conduct](#code-of-conduct)
   - [I don't want to read this whole thing I just have a question!](#i-dont-want-to-read-this-whole-thing-i-just-have-a-question)
   - [What should I know before I get started?](#what-should-i-know-before-i-get-started)
@@ -41,11 +41,11 @@ The following is a set of guidelines for contributing to the Substra framework, 
       - [Pull Request Labels](#pull-request-labels)
   - [Security Policy](#security-policy)
 
-## TODO
+___
 
-TODO:
+## Acknowledgements
 
-- ADD acknowledgment here?
+This amazing piece of software has been developed and open sourced by [Owkin](https://owkin.com/) and its [terrific developers](https://github.com/SubstraFoundation/substra/graphs/contributors). The repositories are now maintained by [Substra Foundation](https://github.com/SubstraFoundation) and its community. Besides, Substra is really excited to welcome new members, feedbacks and contributions, so please, feel free to get in touch with us!
 
 ## Code of Conduct
 
@@ -53,13 +53,11 @@ This project and everyone involved is governed by the Code of Conduct defined [h
 
 ## I don't want to read this whole thing I just have a question!
 
-Please check [our forum](https://forum.substra.org/) or drop us an [email](mailto:help@substra.org).
-
-TODO: Validate channels of communication (add slack?)
+Please check [our forum](https://forum.substra.org/), [create an issue](https://github.com/SubstraFoundation/substra/issues/new) or drop us an [email](mailto:help@substra.org).
 
 ## What should I know before I get started?
 
-It might be useful to have a look at the [documentation](https://github.com/SubstraFoundation/substra)
+It might be useful to have a look at the [documentation](https://github.com/SubstraFoundation/substra)!
 
 ### The components of Substra
 
@@ -69,7 +67,7 @@ Substra is made of several open source components listed below. When you initial
 |---|---|
 | [substra](https://github.com/SubstraFoundation/substra) | Documentation, CLI and Python SDK to interact with a Substra node.  |
 | [substra-tools](https://github.com/SubstraFoundation/substra-tools) | Toolkit to design assets to be registered to Substra.  |
-| [substra-front](https://github.com/SubstraFoundation/substra-frontend)  | Frontend to visualize the state of the assets registered to a Substra channel.  |
+| [substra-frontend](https://github.com/SubstraFoundation/substra-frontend)  | Frontend to visualize the state of the assets registered to a Substra channel.  |
 | [substra-ui](https://github.com/SubstraFoundation/substra-ui)  | UI component for the frontend.  |
 | [substra-backend](https://github.com/SubstraFoundation/substra-backend)  | Backend of a Substra node.  |
 | [substra-chaincode](https://github.com/SubstraFoundation/substra-chaincode)  | Smart contracts responsible for the decentralized orchestration.  |
@@ -85,7 +83,7 @@ TODO: **Currently being defined**
 ### Improving the documentation
 
 The documentation can be found [here](https://github.com/SubstraFoundation/substra).
-We believe documentation is key to a great project and that it should be as alive as our project, so do not hesitate to submit any feedback or PR to improve it!
+We believe documentation is key to a great project and that it should be as alive as our project, so please, do not hesitate to submit any feedback or PR to improve it!
 
 ### Reporting Bugs
 
@@ -96,8 +94,6 @@ Before creating bug reports, please check [this list](#before-submitting-a-bug-r
 > **Note:** If you find a **Closed** issue that seems like it is the same thing that you're experiencing, open a new issue and include a link to the original issue in the body of your new one.
 
 #### Before Submitting A Bug Report
-
-TODO: Add debugging section & some [TIPS]
 
 - **Determine [in which repository the problem should be reported](#the-components-of-substra)**.
 - **Perform a [cursory search](https://github.com/search?q=+is%3Aissue+org%3Asubstrafoundation)** to see if the problem has already been reported. If it has **and the issue is still open**, please kindly add a comment to the existing issue instead of opening a new one.
@@ -114,7 +110,9 @@ This section guides you through submitting an enhancement suggestion for Substra
 
 Before creating enhancement suggestions, please check [this list](#before-submitting-an-enhancement-suggestion) as you might find out that you don't need to create a new one. When you are creating an enhancement suggestion, please [include as many details as possible](#how-do-i-submit-a-good-enhancement-suggestion). Fill in [the template](https://github.com/SubstraFoundation/.github/blob/master/.github/ISSUE_TEMPLATE/feature_request.md), including all the steps that you imagine you would take if the feature already existed.
 
-TODO: ADD feature_request.md OR GOTO forum
+You can also start a new topic on the [forum](https://forum.substra.org/) in order to engage the community in discussing your suggestion.
+
+TODO: ADD feature_request.md
 
 #### Before Submitting An Enhancement Suggestion
 
@@ -130,8 +128,6 @@ If you don't know which repository your suggestion is related to, submit an issu
 
 ### Your First Code Contribution
 
-TODO: ADD suggestion translation and reformulation
-
 Not sure where to start?
 
 You can have a look through these `[beginner]` and `[help-wanted]` flagged issues:
@@ -141,11 +137,11 @@ You can have a look through these `[beginner]` and `[help-wanted]` flagged issue
 
 Both issues lists are sorted by total number of comments. While not perfect, the number of comments is a reasonable proxy for impact a given change will have.
 
+> Note: `translation` or `reformulation` can be good entry points on the project.
+
 #### Local development
 
-Substra can be developed locally. For instructions on how to do this, see [this document](https://github.com/SubstraFoundation/substra-cli/blob/dev/docs/local_install.md) which is part of the Substra Documentation.
-
-TODO: UPDATE url (repo is archived)
+Substra can be developed locally. For instructions on how to do this, see [this document](https://github.com/SubstraFoundation/substra#running-the-substra-platform-locally) which is part of the Substra Documentation.
 
 ### Pull Requests
 
@@ -164,8 +160,9 @@ Please follow these steps to have your contribution considered by the maintainer
 2. Follow the [coding guidelines](#coding-guidelines)
 3. After submitting your pull request, verify that all [status checks](https://help.github.com/articles/about-status-checks/) are passing, for example:
 
-- ![Status OK](/.github/assets/git_status_check_ok.png "Status OK")
-- ![Status KO](/.github/assets/git_status_check_ko.png "Status KO")
+![Status OK](/.github/assets/git_status_check_ok.png "Status OK")
+
+![Status KO](/.github/assets/git_status_check_ko.png "Status KO")
 
 What if the status checks are failing?
 
@@ -338,14 +335,12 @@ This section lists the labels we use to help us track and manage issues and pull
 
 The labels are loosely grouped by their purpose, but it's not required that every issue have a label from every group or that an issue can't have more than one label from the same group.
 
-Please open an issue ???with a `TODO` label???, define if you have suggestions for new labels, and if you notice some missing labels on some repositories, then please open an issue on that repository.
+Please open an issue with a `Add_Label` flag, define if you have suggestions for new labels, and if you notice some missing labels on some repositories, then please open an issue on that repository.
 
 #### Type of Issue and Issue State
 
-TODO:???
-TODO: UPDATE search urls
-
-TODO
+TODO: UPDATE/CHECK search urls?
+TODO: fix table display (KO on Github)
 
 | Label name | :mag_right: | Description |
 | --- | --- | --- | --- |
@@ -364,8 +359,6 @@ TODO
 | `wrong-repo` | [search][search-substra-org-label-wrong-repo] | Issues reported on the wrong repository.  |
 
 #### Topic Categories
-
-TODO
 
 | Label name | :mag_right: | Description |
 | --- | --- | --- | --- |
@@ -429,4 +422,4 @@ TODO
 
 ## Security Policy
 
-Please refer to [this document](./SECURITY.md) if you want to submit any security related issue.
+Please refer to [this section](./SECURITY.md) if you want to submit any security related issue.

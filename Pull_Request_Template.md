@@ -7,7 +7,7 @@
 
 ## What this PR does / Which issue is it addressing / Why we need it?
 
-Please provide context, descriptionu and use this format to link your proposition to an existing issue: `Fixes #<issue number>`.
+Please provide context, description and use this format to link your proposition to an existing issue: `Fixes #<issue number>`.
 
 ## Special notes to your reviewer
 
