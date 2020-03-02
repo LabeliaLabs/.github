@@ -343,81 +343,36 @@ TODO: UPDATE/CHECK search urls?
 
 | Label name | :mag_right: | Description |
 | --- | --- | --- |
-| `enhancement` | [search][search-substra-org-label-enhancement] | Feature requests. |
-| `bug` | [search][search-substra-org-label-bug] | Confirmed bugs or reports that are very likely to be bugs. |
-| `question` | [search][search-substra-org-label-question] | Questions more than bug reports or feature requests (e.g. how do I do X). |
-| `feedback` | [search][search-substra-org-label-feedback] | General feedback more than bug reports or feature requests. |
-| `help-wanted` | [search][search-substra-org-label-help-wanted] | The Atom core team would appreciate help from the community in resolving these issues. |
-| `beginner` | [search][search-substra-org-label-beginner] | Less complex issues which would be good first issues to work on for users who want to contribute to Atom. |
-| `more-information-needed` | [search][search-substra-org-label-more-information-needed] | More information needs to be collected about these problems or feature requests (e.g. steps to reproduce). |
-| `needs-reproduction` | [search][search-substra-org-label-needs-reproduction] | Likely bugs, but haven't been reliably reproduced. |
-| `blocked` | [search][search-substra-org-label-blocked] | Issues blocked on other issues. |
-| `duplicate` | [search][search-substra-org-label-duplicate] | Issues which are duplicates of other issues, i.e. they have been reported before. |
-| `wontfix` | [search][search-substra-org-label-wontfix] | The Atom core team has decided not to fix these issues for now, either because they're working as intended or for some other reason. |
-| `invalid` |  [search][search-substra-org-label-invalid] | Issues which aren't valid (e.g. user errors). |
-| `wrong-repo` | [search][search-substra-org-label-wrong-repo] | Issues reported on the wrong repository.  |
+| `enhancement` | [search](https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Aenhancement) | Feature requests. |
+| `bug` | [search](https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Abug) | Confirmed bugs or reports that are very likely to be bugs. |
+| `question` | [search](https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Aquestion) | Questions more than bug reports or feature requests (e.g. how do I do X). |
+| `feedback` | [search](https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Afeedback) | General feedback more than bug reports or feature requests. |
+| `help-wanted` | [search](https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Ahelp-wanted) | The Atom core team would appreciate help from the community in resolving these issues. |
+| `beginner` | [search](https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Abeginner) | Less complex issues which would be good first issues to work on for users who want to contribute to Atom. |
+| `more-information-needed` | [search](https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Amore-information-needed) | More information needs to be collected about these problems or feature requests (e.g. steps to reproduce). |
+| `needs-reproduction` | [search](https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Aneeds-reproduction) | Likely bugs, but haven't been reliably reproduced. |
+| `blocked` | [search](https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Ablocked) | Issues blocked on other issues. |
+| `duplicate` | [search](https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Aduplicate) | Issues which are duplicates of other issues, i.e. they have been reported before. |
+| `wontfix` | [search](https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Awontfix) | The Atom core team has decided not to fix these issues for now, either because they're working as intended or for some other reason. |
+| `invalid` |  [search](https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Ainvalid) | Issues which aren't valid (e.g. user errors). |
+| `wrong-repo` | [search](https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Awrong-repo) | Issues reported on the wrong repository.  |
 
 #### Topic Categories
 
 | Label name | :mag_right: | Description |
 | --- | --- | --- |
-| `documentation` | [search][search-substra-org-label-documentation] | Related to any type of documentation. |
-| `security` | [search][search-substra-org-label-security] | Related to security. |
+| `documentation` | [search](https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Adocumentation) | Related to any type of documentation. |
+| `security` | [search](https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Asecurity) | Related to security. |
 
 #### Pull Request Labels
 
 | Label name | :mag_right: | Description
 | --- | --- | --- |
-| `work-in-progress` | [search][search-substra-org-label-work-in-progress] | Pull requests which are still being worked on, more changes will follow. |
-| `needs-review` | [search][search-substra-org-label-needs-review] | Pull requests which need code review, and approval from maintainers or Atom core team. |
-| `under-review` | [search][search-substra-org-label-under-review] | Pull requests being reviewed by maintainers or Atom core team. |
-| `requires-changes` | [search][search-substra-org-label-requires-changes] | Pull requests which need to be updated based on review comments and then reviewed again. |
-| `needs-testing` | [search][search-substra-org-label-needs-testing] | Pull requests which need manual testing. |
-
-[search-substra-org-label-enhancement]: https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Aenhancement
-[search-substra-org-label-bug]: https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Abug
-[search-substra-org-label-question]: https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Aquestion
-[search-substra-org-label-feedback]: https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Afeedback
-[search-substra-org-label-help-wanted]: https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Ahelp-wanted
-[search-substra-org-label-beginner]: https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Abeginner
-[search-substra-org-label-more-information-needed]: https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Amore-information-needed
-[search-substra-org-label-needs-reproduction]: https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Aneeds-reproduction
-[search-substra-org-label-triage-help-needed]: https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Atriage-help-needed
-[search-substra-org-label-windows]: https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Awindows
-[search-substra-org-label-linux]: https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Alinux
-[search-substra-org-label-mac]: https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Amac
-[search-substra-org-label-documentation]: https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Adocumentation
-[search-substra-org-label-performance]: https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Aperformance
-[search-substra-org-label-security]: https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Asecurity
-[search-substra-org-label-ui]: https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Aui
-[search-substra-org-label-api]: https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Aapi
-[search-substra-org-label-crash]: https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Acrash
-[search-substra-org-label-auto-indent]: https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Aauto-indent
-[search-substra-org-label-encoding]: https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Aencoding
-[search-substra-org-label-network]: https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Anetwork
-[search-substra-org-label-uncaught-exception]: https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Auncaught-exception
-[search-substra-org-label-git]: https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Agit
-[search-substra-org-label-blocked]: https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Ablocked
-[search-substra-org-label-duplicate]: https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Aduplicate
-[search-substra-org-label-wontfix]: https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Awontfix
-[search-substra-org-label-invalid]: https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Ainvalid
-[search-substra-org-label-wrong-repo]: https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Awrong-repo
-[search-substra-org-label-editor-rendering]: https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Aeditor-rendering
-[search-substra-org-label-build-error]: https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Abuild-error
-[search-substra-org-label-error-from-save]: https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Aerror-from-save
-[search-substra-org-label-error-from-open]: https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Aerror-from-open
-[search-substra-org-label-installer]: https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Ainstaller
-[search-substra-org-label-auto-updater]: https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Aauto-updater
-[search-substra-org-label-deprecation-help]: https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Adeprecation-help
-[search-substra-org-label-electron]: https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Aelectron
-[search-substra-org-label-work-in-progress]: https://github.com/search?q=is%3Aopen+is%3Apr+org%3Asubstrafoundation+label%3Awork-in-progress
-[search-substra-org-label-needs-review]: https://github.com/search?q=is%3Aopen+is%3Apr+org%3Asubstrafoundation+label%3Aneeds-review
-[search-substra-org-label-under-review]: https://github.com/search?q=is%3Aopen+is%3Apr+org%3Asubstrafoundation+label%3Aunder-review
-[search-substra-org-label-requires-changes]: https://github.com/search?q=is%3Aopen+is%3Apr+org%3Asubstrafoundation+label%3Arequires-changes
-[search-substra-org-label-needs-testing]: https://github.com/search?q=is%3Aopen+is%3Apr+org%3Asubstrafoundation+label%3Aneeds-testing
-
-[beginner]:https://github.com/search?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+label%3Abeginner+label%3Ahelp-wanted+org%3Asubstrafoundation+sort%3Acomments-desc
-[help-wanted]:https://github.com/search?q=is%3Aopen+is%3Aissue+label%3Ahelp-wanted+org%3Asubstrafoundation+sort%3Acomments-desc+-label%3Abeginner
+| `work-in-progress` | [search](https://github.com/search?q=is%3Aopen+is%3Apr+org%3Asubstrafoundation+label%3Awork-in-progress) | Pull requests which are still being worked on, more changes will follow. |
+| `needs-review` | [search](https://github.com/search?q=is%3Aopen+is%3Apr+org%3Asubstrafoundation+label%3Aneeds-review) | Pull requests which need code review, and approval from maintainers or Atom core team. |
+| `under-review` | [search](https://github.com/search?q=is%3Aopen+is%3Apr+org%3Asubstrafoundation+label%3Aunder-review) | Pull requests being reviewed by maintainers or Atom core team. |
+| `requires-changes` | [search](https://github.com/search?q=is%3Aopen+is%3Apr+org%3Asubstrafoundation+label%3Arequires-changes) | Pull requests which need to be updated based on review comments and then reviewed again. |
+| `needs-testing` | [search](https://github.com/search?q=is%3Aopen+is%3Apr+org%3Asubstrafoundation+label%3Aneeds-testing) | Pull requests which need manual testing. |
 
 ## Security Policy
 
