@@ -340,7 +340,6 @@ Please open an issue with a `Add_Label` flag, define if you have suggestions for
 #### Type of Issue and Issue State
 
 TODO: UPDATE/CHECK search urls?
-TODO: fix table display (KO on Github)
 
 | Label name | :mag_right: | Description |
 | --- | --- | --- |
