@@ -339,8 +339,6 @@ Please open an issue with a `Add_Label` flag, define if you have suggestions for
 
 #### Type of Issue and Issue State
 
-TODO: UPDATE/CHECK search urls?
-
 | Label name | :mag_right: | Description |
 | --- | --- | --- |
 | `enhancement` | [search](https://github.com/search?q=is%3Aopen+is%3Aissue+org%3Asubstrafoundation+label%3Aenhancement) | Feature requests. |
