@@ -343,7 +343,7 @@ TODO: UPDATE/CHECK search urls?
 TODO: fix table display (KO on Github)
 
 | Label name | :mag_right: | Description |
-| --- | --- | --- | --- |
+| --- | --- | --- |
 | `enhancement` | [search][search-substra-org-label-enhancement] | Feature requests. |
 | `bug` | [search][search-substra-org-label-bug] | Confirmed bugs or reports that are very likely to be bugs. |
 | `question` | [search][search-substra-org-label-question] | Questions more than bug reports or feature requests (e.g. how do I do X). |
@@ -361,14 +361,14 @@ TODO: fix table display (KO on Github)
 #### Topic Categories
 
 | Label name | :mag_right: | Description |
-| --- | --- | --- | --- |
+| --- | --- | --- |
 | `documentation` | [search][search-substra-org-label-documentation] | Related to any type of documentation. |
 | `security` | [search][search-substra-org-label-security] | Related to security. |
 
 #### Pull Request Labels
 
 | Label name | :mag_right: | Description
-| --- | --- | --- | --- |
+| --- | --- | --- |
 | `work-in-progress` | [search][search-substra-org-label-work-in-progress] | Pull requests which are still being worked on, more changes will follow. |
 | `needs-review` | [search][search-substra-org-label-needs-review] | Pull requests which need code review, and approval from maintainers or Atom core team. |
 | `under-review` | [search][search-substra-org-label-under-review] | Pull requests being reviewed by maintainers or Atom core team. |
