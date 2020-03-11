@@ -25,6 +25,7 @@ The following is a set of guidelines for contributing to the Substra framework, 
     - [Code review](#code-review)
       - [Review checklist](#review-checklist)
       - [Review best practices](#review-best-practices)
+        - [TL;DR](#tldr)
         - [Unhelpful behavior](#unhelpful-behavior)
         - [Helpful Code Review Practices](#helpful-code-review-practices)
   - [Coding guidelines](#coding-guidelines)
@@ -45,7 +46,7 @@ ___
 
 ## Acknowledgements
 
-This amazing piece of software has been developed and open sourced by [Owkin](https://owkin.com/) and its [terrific developers](https://github.com/SubstraFoundation/substra/graphs/contributors). The repositories are now maintained by [Substra Foundation](https://github.com/SubstraFoundation) and its community. Besides, Substra is really excited to welcome new members, feedbacks and contributions, so please, feel free to get in touch with us!
+This amazing piece of software has been developed and open sourced by [Owkin](https://owkin.com/) and its [terrific software engineers](https://github.com/SubstraFoundation/substra/graphs/contributors). The repositories are now maintained by [Substra Foundation](https://github.com/SubstraFoundation) and its community. Besides, Substra is really excited to welcome new members, feedbacks and contributions, so please, feel free to get in touch with us!
 
 ## Code of Conduct
 
@@ -112,7 +113,7 @@ Before creating enhancement suggestions, please check [this list](#before-submit
 
 You can also start a new topic on the [forum](https://forum.substra.org/) in order to engage the community in discussing your suggestion.
 
-TODO: ADD feature_request.md
+TODO: ADD feature_request.md?
 
 #### Before Submitting An Enhancement Suggestion
 
@@ -193,6 +194,8 @@ Please make sure you went through this checklist:
 #### Review best practices
 
 Please make sure to be **as constructive as possible**. This article summarises unhelpful and helpful behaviors when doing a code review: [Unlearning toxic behaviors in a code review culture](https://medium.com/@sandya.sankarram/unlearning-toxic-behaviors-in-a-code-review-culture-b7c295452a3c):
+
+##### TL;DR
 
 ##### Unhelpful behavior
 
