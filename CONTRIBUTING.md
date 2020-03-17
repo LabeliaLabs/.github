@@ -113,8 +113,6 @@ Before creating enhancement suggestions, please check [this list](#before-submit
 
 You can also start a new topic on the [forum](https://forum.substra.org/) in order to engage the community in discussing your suggestion.
 
-TODO: ADD feature_request.md?
-
 #### Before Submitting An Enhancement Suggestion
 
 - **Check if there is a newer version which already provides this enhancement.**
