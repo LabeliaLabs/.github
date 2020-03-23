@@ -2,8 +2,8 @@
 
 ## What kind of PR is this?
 
-- Please make sure you've read and understood our [contributing guidelines](./CONTRIBUTING.md)
-- Please label this pull request according to the type of issue you are addressing using these [recommended labels](./CONTRIBUTING.md#type-of-issue-and-issue-state): `feature`, `bugfix`, `linting`, `refactoring`, `documentation`, `other`.
+- Please make sure you've read and understood our [contributing guidelines](https://github.com/SubstraFoundation/.github/blob/master/CONTRIBUTING.md)
+- Please label this pull request according to the type of issue you are addressing using these [recommended labels](https://github.com/SubstraFoundation/.github/blob/master/CONTRIBUTING.md#type-of-issue-and-issue-state): `feature`, `bugfix`, `linting`, `refactoring`, `documentation`, `other`.
 
 ## What this PR does / Which issue is it addressing / Why we need it?
 
