@@ -1,7 +1,5 @@
 # Security Policy
 
-TODO: Add security policy on Github: <https://help.github.com/en/github/managing-security-vulnerabilities/adding-a-security-policy-to-your-repository>
-
 The Substra team and community take security issues very seriously.
 
 We appreciate your efforts to responsibly disclose your findings and we will make our best to acknowledge your contributions.

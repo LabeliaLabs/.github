@@ -10,7 +10,6 @@ The following is a set of guidelines for contributing to the Substra framework, 
   - [I don't want to read this whole thing I just have a question!](#i-dont-want-to-read-this-whole-thing-i-just-have-a-question)
   - [What should I know before I get started?](#what-should-i-know-before-i-get-started)
     - [The components of Substra](#the-components-of-substra)
-    - [Substra Design Decisions](#substra-design-decisions)
   - [How Can I Contribute?](#how-can-i-contribute)
     - [Improving the documentation](#improving-the-documentation)
     - [Reporting Bugs](#reporting-bugs)
@@ -75,10 +74,6 @@ Substra is made of several open source components listed below. When you initial
 | [hlf-k8s](https://github.com/SubstraFoundation/hlf-k8s)  | Tools to deploy a Hyperledger Fabric network on kubernetes.  |
 | [substra-tests](https://github.com/SubstraFoundation/substra-tests)  | Tests for the framework Substra.  |
 
-### Substra Design Decisions
-
-TODO: **Currently being defined**
-
 ## How Can I Contribute?
 
 ### Improving the documentation
@@ -101,7 +96,7 @@ Before creating bug reports, please check [this list](#before-submitting-a-bug-r
 
 #### How Do I Submit A (Good) Bug Report?
 
-Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues/). After you've determined [which repository](#the-components-of-substra) your bug is related to, create an issue on that repository and provide relevant information by filling in [the template](https://github.com/SubstraFoundation/.github/blob/master/.github/ISSUE_TEMPLATE/bug_report.md). This template should guide you to submit a good bug report.
+Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues/). After you've determined [which repository](#the-components-of-substra) your bug is related to, create an issue on that repository. This template should guide you to submit a good bug report.
 
 If you really don't know which repository your bug is related to, submit an issue [here](https://github.com/SubstraFoundation/substra/issues/new).
 
@@ -121,7 +116,7 @@ You can also start a new topic on the [forum](https://forum.substra.org/) in ord
 
 #### How Do I Submit A (Good) Enhancement Suggestion?
 
-Enhancement suggestions are tracked as [GitHub issues](https://guides.github.com/features/issues/). After you've determined [which repository](#components-of-substra) your enhancement suggestion is related to, create an issue on that repository and provide relevant information by filling in [the template](https://github.com/SubstraFoundation/.github/blob/master/.github/ISSUE_TEMPLATE/enhancement_suggestion.md). The template should guide you to submit a good enhancement suggestion.
+Enhancement suggestions are tracked as [GitHub issues](https://guides.github.com/features/issues/). After you've determined [which repository](#components-of-substra) your enhancement suggestion is related to, create an issue on that repository. The template should guide you to submit a good enhancement suggestion.
 
 If you don't know which repository your suggestion is related to, submit an issue to [here](https://github.com/SubstraFoundation/substra/issues/new).
 
@@ -129,10 +124,10 @@ If you don't know which repository your suggestion is related to, submit an issu
 
 Not sure where to start?
 
-You can have a look through these `[beginner]` and `[help-wanted]` flagged issues:
+You can have a look through these [[Beginner]](https://github.com/search?q=is%3Aopen+is%3Aissue+label%3Abeginner+org%3Asubstrafoundation+sort%3Acomments-desc&type=Issues) and [[Help-wanted]](https://github.com/search?q=is%3Aopen+is%3Aissue+label%3Ahelp-wanted+org%3Asubstrafoundation+sort%3Acomments-desc) flagged issues:
 
-- [Beginner issues][beginner] are issues that should only require a few lines of code, and a test or two.
-- [Help wanted issues][help-wanted] are issues that should be a bit more involved than beginner issues.
+- `[Beginner]` issues are issues that should only require a few lines of code, and a test or two.
+- `[Help wanted]` issues are issues that should be a bit more involved than beginner issues.
 
 Both issues lists are sorted by total number of comments. While not perfect, the number of comments is a reasonable proxy for impact a given change will have.
 
@@ -155,13 +150,15 @@ The process described here has several goals:
 
 Please follow these steps to have your contribution considered by the maintainers:
 
-1. Follow all instructions in [Pull Request template](./Pull_Request_Template.md)
-2. Follow the [coding guidelines](#coding-guidelines)
-3. After submitting your pull request, verify that all [status checks](https://help.github.com/articles/about-status-checks/) are passing, for example:
+1. Follow the [coding guidelines](#coding-guidelines)
+1. After submitting your pull request, verify that all [status checks](https://help.github.com/articles/about-status-checks/) are passing.
 
-![Status OK](/.github/assets/git_status_check_ok.png "Status OK")
+![Pull Requests Status](/.github/assets/git_pr_status.png "Pull Requests Status")
 
-![Status KO](/.github/assets/git_status_check_ko.png "Status KO")
+For example, in this caption of the open Pull Requests on the main Substra repository, we can see that:
+
+- The Pull Request called "Type hints" is not passing tests
+- Others are passing
 
 What if the status checks are failing?
 
