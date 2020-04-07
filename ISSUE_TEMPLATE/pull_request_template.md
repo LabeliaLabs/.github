@@ -1,9 +1,8 @@
 ---
 name: Pull Request
-about: Submit a Pull Request & help us improve :-)
+about: Submit a Pull Request & help us improve!
 title: "[PULL_REQUEST]"
-labels: Type:Pull_Request
-assignees: ''
+labels: "Type:Pull_Request"
 
 ---
 
@@ -11,8 +10,8 @@ assignees: ''
 
 ### What kind of PR is this?
 
-- Please make sure you've read and understood our [contributing guidelines](https://substrafoundation.github.io/src/contribute/CONTRIBUTING.html)
-- Please label this pull request according to the type of issue you are addressing using these [recommended labels](https://substrafoundation.github.io/src/contribute/CONTRIBUTING.html#type-of-issue-and-issue-state): `feature`, `bugfix`, `linting`, `refactoring`, `documentation`, `other`.
+- Please make sure you've read and understood our [contributing guidelines](https://doc.substra.ai/contribute/CONTRIBUTING.html)
+- Please label this pull request according to the type of issue you are addressing using these [recommended labels](https://doc.substra.ai/contribute/CONTRIBUTING.html#type-of-issue-and-issue-state): `feature`, `bugfix`, `linting`, `refactoring`, `documentation`, `other`.
 
 ### What this PR does / Which issue is it addressing / Why we need it?
 

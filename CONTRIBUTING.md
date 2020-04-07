@@ -57,7 +57,7 @@ Please check [our forum](https://forum.substra.org/), [create an issue](https://
 
 ## What should I know before I get started?
 
-It might be useful to have a look at the [documentation](https://substrafoundation.github.io)!
+It might be useful to have a look at the [documentation](https://doc.substra.ai)!
 
 ### The components of Substra
 
@@ -135,7 +135,7 @@ Both issues lists are sorted by total number of comments. While not perfect, the
 
 #### Local development
 
-Substra can be developed locally. For instructions on how to do this, see [this page](https://substrafoundation.github.io/src/getting_started/installation/local_install_skaffold.html) which is part of the Substra Documentation.
+Substra can be developed locally. For instructions on how to do this, see [this page](https://doc.substra.ai/getting_started/installation/local_install_skaffold.html) which is part of the Substra Documentation.
 
 ### Pull Requests
 

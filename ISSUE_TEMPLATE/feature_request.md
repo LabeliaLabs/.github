@@ -1,9 +1,8 @@
 ---
 name: Feature Request
-about: Submit a request for a feature you would love to see implemented in Substra & help us improve :-)
+about: Submit a request for a feature you would love to see implemented in Substra & help us improve!
 title: "[FEATURE_REQUEST]"
-labels: Type:Feature_Request
-assignees: ''
+labels: "Type:Feature_Request"
 
 ---
 
