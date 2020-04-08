@@ -49,11 +49,11 @@ This amazing piece of software has been developed and open sourced by [Owkin](ht
 
 ## Code of Conduct
 
-This project and everyone involved is governed by the Code of Conduct defined [here](https://github.com/SubstraFoundation/.github/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [github@substra.org](mailto:github@substra.org).
+This project and everyone involved is governed by the Code of Conduct defined [here](https://github.com/SubstraFoundation/.github/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [github@substra.ai](mailto:github@substra.ai).
 
 ## I don't want to read this whole thing I just have a question!
 
-Please check [our forum](https://forum.substra.org/), [create an issue](https://github.com/SubstraFoundation/substra-documentation/issues/new) or drop us an [email](mailto:help@substra.org).
+Please check [our forum](https://forum.substra.org/), [create an issue](https://github.com/SubstraFoundation/substra-documentation/issues/new) or drop us an [email](mailto:help@substra.ai).
 
 ## What should I know before I get started?
 
