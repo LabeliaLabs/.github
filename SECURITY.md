@@ -8,7 +8,7 @@ We appreciate your efforts to responsibly disclose your findings and we will mak
 
 > Note: Please do not report security vulnerabilities through public Github issues.
 
-To report a securty issue, please send an email at [security@substra.org](mailto:security@substra.org?subject=SECURITY) including the word "SECURITY" in the subject line.
+To report a securty issue, please send an email at [security@substra.ai](mailto:security@substra.ai?subject=SECURITY) including the word "SECURITY" in the subject line.
 
 The Substra team will get back to you as soon as possible with the next steps in handling your report. After this initial reply to your report, the team will keep you informed of the progress towards a fix and full announcement, and may ask for additional information or guidance.
 
